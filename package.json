@@ -1,7 +1,7 @@
 {
   "name": "gatsby-starter-zurg",
   "description": "A Gatsby starter with Sass and no assumptions",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
     "gatsby": "^2.3.31",
