@@ -56,15 +56,23 @@
     "test-watch": "yarn test --watchAll"
   },
   "lint-staged": {
-    "**/*.js": [
-      "yarn format-js",
-      "yarn lint-js",
-      "git add"
-    ],
-    "**/*.scss": [
-      "yarn format-css",
-      "yarn lint-css",
-      "git add"
+    "linters": {
+      "**/*.js": [
+        "yarn format-js",
+        "yarn lint-js",
+        "git add"
+      ],
+      "**/*.scss": [
+        "yarn format-css",
+        "yarn lint-css",
+        "git add"
+      ]
+    },
+    "ignore": [
+      ".cache",
+      "coverage",
+      "node_modules",
+      "public"
     ]
   },
   "repository": {
