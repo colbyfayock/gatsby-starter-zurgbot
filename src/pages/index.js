@@ -27,7 +27,7 @@ const IndexPage = () => {
         <pre>
           <code>
             gatsby new [directory]
-            https://github.com/colbyfayock/gatsby-zurg-sass
+            https://github.com/colbyfayock/gatsby-starter-zurg
           </code>
         </pre>
       </Container>
