@@ -1,3 +1,8 @@
+$content-heading-color: white;
+$body-color: rgba(white, .8);
+$pre: rgba(white, .7);
+$pre-background: #2e2252;
+
 @import "~bulma/bulma.sass";
 
 @import "components/__components";
@@ -11,6 +16,7 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  background-color: #0f0640;
 }
 
 main {
