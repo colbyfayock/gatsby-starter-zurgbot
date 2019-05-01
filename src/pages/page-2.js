@@ -10,7 +10,7 @@ const SecondPage = () => {
       <Helmet>
         <title>Page Two</title>
       </Helmet>
-      <Container>
+      <Container className="content">
         <h1>Page Two</h1>
         <p>Welcome to page 2</p>
       </Container>

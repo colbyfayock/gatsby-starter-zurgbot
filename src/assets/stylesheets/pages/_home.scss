@@ -1,7 +1,13 @@
 .page-home {
 
   h1 {
+    
     color: black;
+    
+    svg {
+      transform: translateY(.15em);
+    }
+
   }
 
   .gatsby-astronaut {

@@ -51,6 +51,16 @@
       "only-multiline"
     ],
     "no-console": "off",
+    "no-warning-comments": [
+      "warn",
+      {
+        "terms": [
+          "todo",
+          "fixme"
+        ],
+        "location": "start"
+      }
+    ],
     "indentSwitchCase": true,
     "react/jsx-uses-react": 1
   },

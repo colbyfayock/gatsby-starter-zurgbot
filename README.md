@@ -1,1 +1,1 @@
-# gatsby-starter-zurg
+# Gatsby Starter Zurg
