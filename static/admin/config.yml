@@ -8,26 +8,26 @@ public_folder: assets
 collections:
 - name: post
   label: Post
-  folder: src/_posts
+  folder: content/posts
   create: true
   fields:
   - name: template
     label: Template
     widget: hidden
     default: post
-  - name: path,
+  - name: path
     label: Path
-  - name: date,
-    label: Date,
+  - name: date
+    label: Date
     widget: date
-  - name: title,
+  - name: title
     label: Title
-  - name: body,
-    label: Body,
+  - name: body
+    label: Body
     widget: markdown
 - name: page
   label: Page
-  folder: src/_pages
+  folder: content/pages
   create: true
   fields:
   - name: template
