@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: colbyfayock/gatsby-starter-zurg
+
+media_folder: static/assets
+public_folder: assets
+
+collections:
+- name: post
+  label: Post
+  folder: src/_posts
+  create: true
+  fields:
+  - name: template
+    label: Template
+    widget: hidden
+    default: post
+  - name: path,
+    label: Path
+  - name: date,
+    label: Date,
+    widget: date
+  - name: title,
+    label: Title
+  - name: body,
+    label: Body,
+    widget: markdown
+- name: page
+  label: Page
+  folder: src/_pages
+  create: true
+  fields:
+  - name: template
+    label: Template
+    widget: hidden
+    default: page
+  - name: title
+    label: Title
+  - name: path
+    label: Path
+  - label: Body
+    name: body
+    widget: markdown
