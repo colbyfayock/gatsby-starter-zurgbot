@@ -15,8 +15,6 @@ collections:
     label: Template
     widget: hidden
     default: post
-  - name: path
-    label: Path
   - name: date
     label: Date
     widget: date
@@ -36,8 +34,6 @@ collections:
     default: page
   - name: title
     label: Title
-  - name: path
-    label: Path
   - label: Body
     name: body
     widget: markdown
