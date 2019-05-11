@@ -28,7 +28,7 @@ gatsby new [directory] https://github.com/colbyfayock/gatsby-starter-zurg
 ```
 
 ### Starting from Scratch
-* Set up Yarn: https://yarnpkg.com/lang/en/docs/install/#mac-stable)[https://yarnpkg.com/lang/en/docs/install/
+* Set up Yarn: https://yarnpkg.com/lang/en/docs/install/
 * Install the Gatsby CLI globally:
 ```
 yarn global add gatsby-cli
