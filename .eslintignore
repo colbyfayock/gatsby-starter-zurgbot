@@ -1,5 +1,4 @@
 .cache
-.gitlab
 .storybook
 coverage
 public

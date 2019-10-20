@@ -9,10 +9,7 @@ module.exports = {
 
   testPathIgnorePatterns: ['.cache', 'config', 'node_modules', 'public', 'src'],
 
-  setupFilesAfterEnv: [
-    '<rootDir>/config/jest.setup.js',
-    '<rootDir>/config/jest.loadershim.js'
-  ],
+  setupFilesAfterEnv: ['<rootDir>/config/jest.setup.js', '<rootDir>/config/jest.loadershim.js'],
 
   transform: {
     '^.+\\.js$': '<rootDir>/config/jest.preprocess.js'
