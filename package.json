@@ -5,7 +5,7 @@
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "dependencies": {
     "bulma": "^0.8.0",
-    "eslint-config-zurgbot": "^0.0.5",
+    "eslint-config-zurgbot": "^0.0.6",
     "gatsby": "^2.16.5",
     "gatsby-plugin-react-helmet": "^3.1.13",
     "gatsby-plugin-resolve-src": "^2.0.0",

@@ -4554,10 +4554,10 @@ eslint-config-react-app@^5.0.2:
   dependencies:
     confusing-browser-globals "^1.0.9"
 
-eslint-config-zurgbot@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-zurgbot/-/eslint-config-zurgbot-0.0.5.tgz#14d99a69775b44e4240856fe9342be29407571af"
-  integrity sha512-BZ2wCFA+ptIQAlLEiLTmuJUmrR4hbmSlrQHm4QOmn/EfMm+ihnyeUi26VcIKZ9nLSKK28fpUjjkzNAcNgjyNug==
+eslint-config-zurgbot@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/eslint-config-zurgbot/-/eslint-config-zurgbot-0.0.6.tgz#faec1a3b95e547120d2f709c3fd4359006bc8015"
+  integrity sha512-ewQNjhZwqMxaElSQWvWJXCyPbcJho5BlUT612/bqUlK90fZGh53BvHc3CifQ3m2yxjNkSeqPyt8H2rnrD9oVhg==
 
 eslint-import-resolver-node@^0.3.2:
   version "0.3.2"

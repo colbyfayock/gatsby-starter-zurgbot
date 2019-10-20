@@ -23,5 +23,5 @@ module.exports = {
 
   plugins: ['react', 'react-hooks'],
 
-  extends: ['zurgbot', 'plugin:react/recommended']
+  extends: ['zurgbot']
 };
