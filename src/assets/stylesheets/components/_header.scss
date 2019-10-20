@@ -4,11 +4,46 @@ header {
   color: white;
   background-color: rebeccapurple;
 
-  .container {
+  .columns {
+
+    padding: .3em 0 .6em;
+
+    @include tablet() {
+      padding: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+
+  .column {
+
     display: flex;
-    justify-content: space-between;
-    height: 4em;
-    line-height: 4em;
+    align-items: center;
+    justify-content: center;
+
+    @include mobile() {
+      padding: 0;
+    }
+
+    @include tablet() {
+
+      &:first-child {
+        justify-content: flex-start;
+      }
+
+      &:last-child {
+        justify-content: flex-end;
+      }
+
+    }
+
   }
 
   ul {

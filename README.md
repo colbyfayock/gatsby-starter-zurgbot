@@ -1,4 +1,4 @@
-# Gatsby Starter Zurg
+# Zurgbot Gatsby Starter
 
 ### Here's What You Get
 * [Gatsby](https://www.gatsbyjs.org/)

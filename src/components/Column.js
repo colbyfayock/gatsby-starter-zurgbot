@@ -3,15 +3,15 @@ import PropTypes from 'prop-types';
 
 import ClassName from 'models/ClassName';
 
-const Container = ({ children, className }) => {
-  const componentClass = new ClassName( 'container' );
+const Column = ({ children, className }) => {
+  const componentClass = new ClassName( 'column' );
   if ( className ) componentClass.add( className );
   return <div className={componentClass.string}>{ children }</div>;
 };
 
-Container.propTypes = {
+Column.propTypes = {
   children: PropTypes.oneOfType([PropTypes.arrayOf( PropTypes.node ), PropTypes.node]).isRequired,
   className: PropTypes.string
 };
 
-export default Container;
+export default Column;

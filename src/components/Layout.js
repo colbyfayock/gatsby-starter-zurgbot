@@ -4,24 +4,33 @@ import Helmet from 'react-helmet';
 
 import 'assets/stylesheets/application.scss';
 
+import ClassName from 'models/ClassName';
+import { usePageMeta } from 'hooks';
+
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
-const Layout = ({ children, pageName }) => {
-  let className = '';
+const Layout = ({ children, pageName, className }) => {
+  const componentClass = new ClassName();
+  if ( pageName ) componentClass.add( `page-${pageName}` );
+  if ( className ) componentClass.add( className );
 
-  if ( pageName ) {
-    className = `${className} page-${pageName}`;
-  }
+  const { meta } = usePageMeta();
+
+  const helmetSettings = {
+    ...meta,
+    bodyAttributes: {
+      ...meta.bodyAttributes,
+      class: componentClass.string
+    }
+  };
 
   return (
     <>
-      <Helmet bodyAttributes={{ class: className }}>
-        <title>Gatsby Site</title>
-      </Helmet>
+      <Helmet {...helmetSettings} />
       <div className="wrapper">
         <Header />
-        <main className="section">{ children }</main>
+        <main>{ children }</main>
         <Footer />
       </div>
     </>
@@ -29,8 +38,9 @@ const Layout = ({ children, pageName }) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-  pageName: PropTypes.string
+  children: PropTypes.oneOfType([PropTypes.arrayOf( PropTypes.node ), PropTypes.node]).isRequired,
+  pageName: PropTypes.string,
+  className: PropTypes.string
 };
 
 export default Layout;

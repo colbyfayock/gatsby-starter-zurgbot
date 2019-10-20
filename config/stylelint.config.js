@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'stylelint-config-recommended',
+  plugins: ['stylelint-scss'],
   rules: {
     'declaration-colon-space-after': 'always',
     'declaration-colon-space-before': 'never',
