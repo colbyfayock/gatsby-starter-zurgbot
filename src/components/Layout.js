@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 import 'assets/stylesheets/application.scss';
 
-import ClassName from 'models/ClassName';
+import ClassName from 'models/classname';
 import { usePageMeta } from 'hooks';
 
 import Header from 'components/Header';

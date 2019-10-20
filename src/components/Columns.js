@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import ClassName from 'models/ClassName';
+import ClassName from 'models/classname';
 
 const Columns = ({ children, className }) => {
   const componentClass = new ClassName( 'columns' );
