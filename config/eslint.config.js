@@ -21,7 +21,7 @@ module.exports = {
     }
   },
 
-  plugins: ['react', 'react-hooks'],
+  plugins: ['react', 'react-hooks', 'jsx-a11y'],
 
-  extends: ['zurgbot']
+  extends: ['zurgbot', 'plugin:jsx-a11y/recommended']
 };
