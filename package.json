@@ -15,7 +15,7 @@
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sitemap": "^2.3.1",
     "gatsby-source-filesystem": "^2.2.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "parameterize": "^1.0.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
